@@ -1,0 +1,45 @@
+.article-container {
+    /* border: 1px solid red; */
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+.article-section {
+    border: 1px dashed blue;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    height: 70vh;
+    width: 80%;
+    position: relative;
+    left: 10%;
+}
+
+.article-section .uc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article-section section {
+    border: 1px dashed green;
+    margin: 5px;
+}
+
+.uc p {
+    font-size: xx-large;
+    font-variant: small-caps;
+
+}
+
+@media screen and (max-width: 1000px) {
+    .article-section {
+        grid-template-columns: none;
+        grid-template-rows: repeat(3, 1fr) ;
+
+        width: 100%;
+        left: 0%;
+    }
+
+}
