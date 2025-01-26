@@ -1,0 +1,15 @@
+.App {
+  height: 100vh;
+}
+
+.Header {
+  height: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Header h1 {
+  font-variant: small-caps;
+}
