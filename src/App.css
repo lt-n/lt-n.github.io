@@ -1,4 +1,48 @@
 .App {
-  height: 100vh;
-  margin: 10px;
+  position: relative;
+  left: 12.5%;
+  top: 10vh;
+  height: 80vh;
+  width: 75%;
+  display: grid;
+  grid-template-rows: 1fr 5fr 1fr;
+
+  
 }
+
+@media screen and (max-width: 1200px) {
+  .App {
+    width: 80%;
+    height: 90vh;
+    left: 10%;
+    top: 5vh
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .App {
+    width: 95%;
+    height: 95vh;
+    left: 2.5%;
+    top: 2.5vh
+  }
+}
+
+header {
+  border: 1px dashed grey;
+}
+
+article {
+  border: 1px dashed grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: times;
+  font-variant: small-caps;
+}
+
+footer {
+  border: 1px dashed grey;
+}
+

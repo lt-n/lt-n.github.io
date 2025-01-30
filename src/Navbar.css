@@ -1,0 +1,23 @@
+.mob-menu {
+    overflow: hidden;
+    transition: height 0.4s ease-in-out;
+    display: none;
+}
+
+.mob-menu-btn {
+    display: none;
+}
+
+.open {
+    height: auto
+}
+
+.close {
+    height: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .mob-menu, .mob-menu-btn {
+        display: block;
+    }
+}
